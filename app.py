@@ -13,6 +13,7 @@ from PIL import Image
 from io import BytesIO
 from s3 import S3
 
+
 @st.cache_resource
 def initialize_chroma(_bucket_client: S3) -> ChromaBase:
     chroma_base = ChromaBase(_bucket_client)
