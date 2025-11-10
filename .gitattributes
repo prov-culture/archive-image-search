@@ -1,0 +1,2 @@
+archive-image-search/.local/** filter=lfs diff=lfs merge=lfs -text
+archive-image-search/media/** filter=lfs diff=lfs merge=lfs -text
